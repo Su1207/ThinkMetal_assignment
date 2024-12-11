@@ -30,6 +30,16 @@ const Main = () => {
       <Comment />
 
       <Partners />
+
+      <div className="main_overview">
+        <h1 className="overview_head">Keep everyone in the loop</h1>
+        <p className="overview_content">
+          All good things starts with a homepage. Get
+          <br /> inspired without breaking your wallet.
+        </p>
+        <div className="overview_btn">Start for free</div>
+        <img src="/overview_img.png" alt="" />
+      </div>
     </div>
   );
 };
