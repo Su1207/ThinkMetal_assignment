@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./main.css";
 import Company from "./company/Company";
 import SubMain from "./subMain/SubMain";
@@ -8,6 +8,8 @@ import Comment from "./comment/Comment";
 import Partners from "./partners/Partners";
 
 const Main = () => {
+  const [buttonClicked, setButtonClicked] = useState(false);
+
   return (
     <div className="main">
       <h1 className="main_header">
@@ -51,8 +53,18 @@ const Main = () => {
         </p>
 
         <div className="pre_footer_btns">
-          <div>Request a demo</div>
-          <div className="main_button">Start for free</div>
+          <div
+            onClick={() => setButtonClicked(true)}
+            className={`${buttonClicked ? "main_button" : "btn"}`}
+          >
+            Request a demo
+          </div>
+          <div
+            onClick={() => setButtonClicked(false)}
+            className={`${!buttonClicked ? "main_button" : "btn"}`}
+          >
+            Start for free
+          </div>
         </div>
       </div>
     </div>

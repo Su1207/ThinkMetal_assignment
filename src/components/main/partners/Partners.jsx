@@ -5,7 +5,11 @@ const Partners = () => {
   return (
     <div className="partner_section">
       <h1 className="partner_header">Loved By Designers At</h1>
-      <div className="partner_container">
+      <div
+        className="partner_container"
+        data-aos="zoom-out"
+        data-aos-duration="6000"
+      >
         <div className="partner">
           <img src="/partner1.png" alt="" />
         </div>

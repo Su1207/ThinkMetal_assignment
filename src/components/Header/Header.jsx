@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import "./header.css";
 
 const Header = () => {
+  const [loginClicked, setLoginClicked] = useState(false);
   return (
     <div className="header">
       <div className="logo_header">
@@ -19,8 +20,18 @@ const Header = () => {
         </div>
       </div>
       <div className="login_section">
-        <div>Login</div>
-        <div className="start_button">Start for free</div>
+        <div
+          onClick={() => setLoginClicked(true)}
+          className={`${loginClicked ? "start_button" : "btn"}`}
+        >
+          Login
+        </div>
+        <div
+          onClick={() => setLoginClicked(false)}
+          className={`${!loginClicked ? "start_button" : "btn"}`}
+        >
+          Start for free
+        </div>
       </div>
     </div>
   );

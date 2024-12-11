@@ -17,13 +17,35 @@
   color: white;
   padding: 10px 20px;
   border-radius: 39px;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.1); /* Slightly enlarge the active button */
+}
+
+.btn {
+  background: transparent;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 39px;
+  /* border: 1px solid #ddd; */
+  transition: background 0.3s ease-in-out;
+  cursor: pointer;
+  /* transform: scale(1); Regular size for inactive buttons */
+}
+
+.btn:hover {
+  background: #f7f7f7;
 }
 
 .login_section,
 .header_mid {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
+}
+
+.header_mid {
+  gap: 1.5rem;
 }
 
 .logo {

@@ -7,3 +7,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Remove outline globally for clickable elements (optional) */
+button,
+div,
+a {
+  outline: none;
+}
