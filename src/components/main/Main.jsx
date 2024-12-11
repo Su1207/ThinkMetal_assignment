@@ -40,6 +40,21 @@ const Main = () => {
         <div className="overview_btn">Start for free</div>
         <img src="/overview_img.png" alt="" />
       </div>
+
+      <div className="pre_footer">
+        <img src="/footer_logo.png" alt="" />
+        <h2 className="pre_footer_head">
+          Increase your team’s visibility and alignment
+        </h2>
+        <p className="pre_footer_content">
+          Start for free, flexible for all teams.
+        </p>
+
+        <div className="pre_footer_btns">
+          <div>Request a demo</div>
+          <div className="main_button">Start for free</div>
+        </div>
+      </div>
     </div>
   );
 };

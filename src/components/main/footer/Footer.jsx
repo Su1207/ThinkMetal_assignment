@@ -38,6 +38,10 @@ const Footer = () => {
           <p className="footer_option">Support</p>
         </div>
       </div>
+
+      <div className="footer_option footer_last">
+        All rights reserved.&copy; 2024 ThinkMetal
+      </div>
     </div>
   );
 };
