@@ -1,0 +1,21 @@
+/*  */
+
+.partner_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.partner {
+  padding: 2rem;
+  background: #f9fafb;
+  border-radius: 24px;
+}
+
+.partner_header {
+  font-size: 54px;
+  text-align: center;
+  line-height: 63px;
+  letter-spacing: -1.5px;
+  font-weight: 600;
+}

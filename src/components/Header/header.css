@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  padding: 1rem;
+}
+
+.logo_header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.start_button {
+  background: linear-gradient(315deg, #fb432c 0%, #ff591e 100%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 39px;
+}
+
+.login_section,
+.header_mid {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  height: 1.8rem;
+}
+
+.product_but {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}

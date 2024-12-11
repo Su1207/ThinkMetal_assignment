@@ -1,0 +1,25 @@
+.footer {
+  padding: 2rem 4rem;
+  margin-top: 8rem;
+}
+
+.footer_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.footer_head {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.footer_option {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #5f6980;
+  margin-bottom: 6px;
+}
