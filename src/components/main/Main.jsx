@@ -40,7 +40,7 @@ const Main = () => {
           <br /> inspired without breaking your wallet.
         </p>
         <div className="overview_btn">Start for free</div>
-        <img src="/overview_img.png" alt="" />
+        <img src="/overview_img.png" alt="" className="overview_img" />
       </div>
 
       <div className="pre_footer">

@@ -6,11 +6,9 @@
 body {
   margin: 0;
   padding: 0;
+  scrollbar-width: 0;
 }
 
-/* Remove outline globally for clickable elements (optional) */
-button,
-div,
-a {
-  outline: none;
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
 }

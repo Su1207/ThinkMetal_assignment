@@ -9,7 +9,6 @@
 .main_header {
   text-align: center;
   margin: 0;
-
   margin-top: 5rem;
   font-weight: 600;
   font-size: 84px;
@@ -102,4 +101,30 @@
   align-items: center;
   gap: 16px;
   font-size: 14px;
+}
+
+@media (max-width: 1062px) {
+  .overview_img {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 850px) {
+  .main_header {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  .main_sub_header {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 720px) {
+  .overview_head {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -1.5px;
+  }
 }

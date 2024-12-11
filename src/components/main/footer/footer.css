@@ -1,5 +1,6 @@
 .footer {
   padding: 2rem 4rem;
+  width: 100%;
   margin-top: 8rem;
 }
 
@@ -27,4 +28,13 @@
 .footer_last {
   text-align: center;
   margin-top: 3rem;
+}
+
+@media (max-width: 850px) {
+  .footer_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-content: center;
+  }
 }

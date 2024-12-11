@@ -11,29 +11,29 @@ const Partners = () => {
         data-aos-duration="6000"
       >
         <div className="partner">
-          <img src="/partner1.png" alt="" />
+          <img src="/partner1.png" alt="" className="partner_img" />
         </div>
         <div className="partner">
-          <img src="/partner2.png" alt="" />
+          <img src="/partner2.png" alt="" className="partner_img" />
         </div>
         <div className="partner">
-          <img src="/partner3.png" alt="" />
+          <img src="/partner3.png" alt="" className="partner_img" />
         </div>
         <div className="partner">
-          <img src="/partner4.png" alt="" />
+          <img src="/partner4.png" alt="" className="partner_img" />
         </div>
 
         <div className="partner">
-          <img src="/partner5.png" alt="" />
+          <img src="/partner5.png" alt="" className="partner_img" />
         </div>
         <div className="partner">
-          <img src="/partner6.png" alt="" />
+          <img src="/partner6.png" alt="" className="partner_img" />
         </div>
         <div className="partner">
-          <img src="/partner7.png" alt="" />
+          <img src="/partner7.png" alt="" className="partner_img" />
         </div>
         <div className="partner">
-          <img src="/partner8.png" alt="" />
+          <img src="/partner8.png" alt="" className="partner_img" />
         </div>
       </div>
     </div>

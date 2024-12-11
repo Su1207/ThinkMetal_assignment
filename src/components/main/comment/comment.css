@@ -36,3 +36,17 @@
   color: #737373;
   line-height: 22px;
 }
+
+@media (max-width: 1000px) {
+  .comment_section {
+    padding: 80px 40px;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .comment_section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
